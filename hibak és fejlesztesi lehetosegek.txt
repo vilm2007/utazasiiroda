@@ -1,0 +1,16 @@
+Előforduló hibák lehetnek a programba 
+
+1. **Adatbetöltés hibája**: Ha a "adatok.txt" fájl nem létezik vagy sérült, akkor az adatbetöltés hibát okozhat, és a program nem fog tudni adatokat betölteni. Ebben az esetben a programnak valamilyen módon kezelnie kellene ezt a hibát, például figyelmeztetést adni a felhasználónak, vagy alapértelmezett adatokat használni.
+2. **Szövegformátum hibák**: A program feltételezi, hogy a beolvasott szövegek megfelelnek a várt formátumnak (például az adatok számként vagy szövegesen vannak formázva). Ha a szövegformátum nem megfelelő, az adatbetöltés vagy a felhasználói bemenet értelmezésében hibák lehetnek.
+3. **Hibás felhasználói bemenet**: A programnak nem történik ellenőrzés a felhasználói bemenetek helyességére. Például a felhasználó által megadott ár vagy maximális létszám érvénytelen lehet, és ezt nem kezeli a program.
+4. **Fájlkezelési hibák**: A program nem kezeli a fájlok olvasásának és írásának hibáit, például ha a fájlt nem lehet megnyitni írási vagy olvasási hibák miatt.
+5. **Memóriakezelési hibák**: Bár ez egy egyszerű konzolos alkalmazás, de lehetnek memóriakezelési problémák, például túlzott memóriahasználat vagy nem felszabadított erőforrások.
+
+
+Fejlesztési lehetőségek
+1. **Bejelentkezési és jogosultságkezelés**: Implementálhatsz egy bejelentkezési rendszert és jogosultságkezelést, amely lehetővé teszi különböző felhasználói szintek létrehozását és hozzáférési szintek kezelését a program funkcióihoz.
+2. **Értesítések és emlékeztetők**: Készíthetsz egy rendszert az értesítések és emlékeztetők küldésére, például az utazásokhoz való jelentkezés határidejének közeledtére vagy az útlevelek lejárati dátumára.
+3. **Adatellenőrzés és validáció**: Implementálj ellenőrzéseket és validációkat az adatbeviteli mezőkben, hogy biztosítsd az adatok helyességét és teljességét, például az email cím és a telefonszám formátumának ellenőrzése.
+4. **Automatizált adatmentés**: Állíts be egy automatizált adatmentési folyamatot, amely rendszeresen menti az adatokat, hogy megelőzze az adatvesztést esetleges hibák vagy rendszerösszeomlások esetén.
+5. **Nyomtatási funkciók kibővítése**: Bővítsd ki a nyomtatási funkciókat, hogy lehetőség legyen különböző formátumokban (például PDF, Excel stb.) való exportálásra és testreszabásra.
+
